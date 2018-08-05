@@ -47,9 +47,6 @@ writer = pd.ExcelWriter(sys.argv[2])
 training_essays_df.to_excel(writer, sheet_name="results",index=False)
 writer.save()
 
-# BIG ML API key - 256aab6e37fbd064edc631f862d98a3bbd219663
-# BIG ML userid - riyadulepet123@gmail.com
-# BIG ML password - pinecrestschool
-# 0.3136
+ 0.3136
 # 0.7056
 # 0.0784
